@@ -1,20 +1,18 @@
 #+title: Lecture 0
 
-Learning C, Python
+We will be learning C, Python
 
-C is a low level programming language, performant, control.
+- C is a low level programming language, performant, control.
+  
+- Python high level, abstraction, fast development.
 
-Python high level, abstraction, fast development.
+- Databases
 
-Databases, 
+- HTML Web Development
 
-HTML Web Development
-
-Frameworks and libraries
-
+- Frameworks and libraries
 
 What matters is the delta between the you after and before learning.
-
 
 CS50 Puzzle
 
@@ -32,18 +30,13 @@ Learning C
 - Learning industry standard tool, VS Code, Codespace?
 - Explore principles, underneath the hood, RAM.
 - Memory, registry, go to, bytes.
-  
 - Bugs and debugging
   Buggy code, computer encounter mistakes and crashes.
-
 - Algorithms to solve problems, sorting
   What is an algorithm? Translate into code.
-
 - Hash table, array, linked list?
   How to build structures 2 dimensions.
   sorting, how to add code to existing code.
-
-  
 
 * What is compute science?
 
@@ -51,15 +44,80 @@ Computer is the study of information, computational thinking.
 
 How to solve problems, with information.
 
-** What is solving a problem?
+* What is solving a problem?
 
-*** Input (data)
-*** Black box (algorith)
-*** Output (representation)
-
-* Unary (base-1)
+* Input (data)
+** Unary (base-1)
 How we count people and things with fingers
-* Binary (base-2)
-bit --> 0 || 1, ON || OFF
+** Binary (base-2)
+bit --> 0 || 1, ON || OFF, byte
 
-byte
+We can represent bits with lightbulbs with on and off state.
+
+| 2^2 | 2^1 | 2^0 |
+|   0 |   0 |   0 |
+|   0 |   0 |   1 |
+|   0 |   1 |   0 |
+|   0 |   1 |   1 |
+|   1 |   0 |   0 |
+|   1 |   0 |   1 |
+|   1 |   1 |   0 |
+|   1 |   1 |   1 |
+
+** Decimal (base-10)
+123
+100 * 1
+10 * 2
+1 * 3
+
+** ASCII
+ASCII doesn't support all character sets.
+
+0-255
+256 total characters
+
+a = 65 (64+1) using 8 bits
+b = 66, c= 67.
+2 = 50
+Representation of the alphabet agreed on the mapping to bits.
+
+Mapping number to numbers. They use different mappings.
+
+Depending on context, bits can represent different information.
+
+** Unicode UTF-32 encoding
+https://en.wikipedia.org/wiki/UTF-32
+32 bits 4 billions
+Mapping numbers to letters using more bits to store different
+characters, representing
+
+** Emojis
+Emojis are characters, each platforms and apps they have different
+fonts, therefore rendered different.
+
+Reusable patterns are better than 1 to 1
+💑
+|> Emoji on the top
+|> Emoji on the left
+|> Emoji on the right
+
+** Image
+Red, green, blue 0-255
+For each dot, 3 values in RGB.
+Images are represented with each dot (pixel)
+
+pixel = list(0-255, 0-255, 0-255)
+image = list(pixel, pixel, pixel...)
+video = list(image, image, image...)
+** Sounds
+Notes over time as values, MIDI, MP3, AAC.
+
+Frequency, duration, volume...
+
+** Data representation input 
+* Black box (algorithm)
+
+
+
+* Output (representation)
+
