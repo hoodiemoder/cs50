@@ -40,7 +40,8 @@ Learning C
 
 * What is compute science?
 
-Computer is the study of information, computational thinking.
+Computer is the study of information,
+computational thinking.
 
 How to solve problems, with information.
 
@@ -116,8 +117,70 @@ Frequency, duration, volume...
 
 ** Data representation input 
 * Black box (algorithm)
+** Algorithm
+  How to find someone in a phonebook
+  Is the algorithm correct?
 
+  Look at 1 page, pass 1 page
+  Look at 1 page, pass 2 page
+** Time complexity (Big O)
+- O(n) Look 1, pass 1
+- O(n/2) Look 1, pass 2, if over, turn back.
+- O(n log n) Look1, Divide by 2 if over,
+  check previous half
+** Pseudocode
+ 1. Pick up the phone book
+ 2. Open the middle of the phone book
+ 3. Look at page
+ 4. If person is on page
+ 5.     Call person
+ 6. Else If person is earlier in book
+ 7.     Open to middle of left half of book
+ 8.     Go back to line 3
+** Code
+*** Conditionals
+If, else, for.
+*** Data types
+String, Boolean, numbers.
+*** Loops
+Beware of infinite loops, while the problem is smaller
+and smaller it will reach a point to end.
+Phonebook example.
+1) Find the person in the book
+2) Not found, quit.
+** Languages
+*** Scratch
+Graphical programming environment
+Function conditionals, loops, boolean expression
 
+We can skip the syntax curly bracket, brackets, semicolons.
+
+Sprite main character which interacts.
+
+Canvas, uses X and Y axis.
+0,0 as the center pixel coordinates.
 
 * Output (representation)
 
+* Example "Hello $USER"
+- Input
+  User name
+  
+- Algorithm
+  when green flag
+  ask name
+  say hello
+  say name
+  
+- Output
+  Cat says hello to user
+
+Baby steps, start from the easiest, set the stage for the program.
+
+Respect languages naming scheme and standards.
+
+Break it down, step by step and thing by thing.
+
+Figure out the small pieces that assembles to bigger things.
+
+Interpreting and understandingother's code.
