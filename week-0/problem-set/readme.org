@@ -1,0 +1,11 @@
+* Scratch game
+
+** Idea
+ Using buttons, you can program a beat.
+
+** Requirements
+*** DONE Two sprites (!cat)
+Made two sprites for buttons,
+button-a and button-b.
+*** TODO More than three scripts
+*** TODO One Conditional, loop and variable
