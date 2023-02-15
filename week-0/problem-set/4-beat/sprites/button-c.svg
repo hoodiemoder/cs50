@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="64"
+   height="64"
+   viewBox="0 0 64 64"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="button-a.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview137"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="0.25"
+     inkscape:cx="120.5"
+     inkscape:cy="120.5"
+     inkscape:window-width="1499"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid260" />
+  </sodipodi:namedview>
+  <defs
+     id="defs132">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect373"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#ebebeb;stroke:#000000;stroke-width:1.77778;stroke-dasharray:none;stroke-opacity:1"
+       d="M 3.8527426,3.8527429 C 6.8165939,0.88889125 12.742521,0.88889125 20.150016,0.88889125 c 7.407496,0 16.296207,0 23.703673,0 7.407466,0 13.333273,0 16.295346,2.96391095 2.962074,2.9639109 2.962074,8.8897188 2.962074,16.2972138 0,7.407496 0,16.296207 0,23.703673 0,7.407466 0,13.333273 -2.962133,16.295346 -2.962133,2.962074 -8.88794,2.962074 -16.295436,2.962074 -7.407495,0 -16.296206,0 -23.703672,0 -7.407466,0 -13.3332741,0 -16.2971254,-2.962133 -2.96385135,-2.962133 -2.96385135,-8.88794 -2.96385135,-16.295436 0,-7.407495 0,-16.296206 0,-23.703672 0,-7.407466 0,-13.3332735 2.96385135,-16.2971251 z"
+       id="path371"
+       inkscape:path-effect="#path-effect373"
+       inkscape:original-d="m 0.88889125,0.88889125 c 5.92770265,0.00178 11.85362975,0.00178 17.77777675,0 8.890844,0.00178 17.779555,0.00178 26.666665,0 5.927822,0.00178 11.853629,0.00178 17.777776,0 0.0018,5.92782185 0.0018,11.85362975 0,17.77777675 0.0018,8.890844 0.0018,17.779555 0,26.666665 0.0018,5.927822 0.0018,11.853629 0,17.777776 -5.924266,0.0018 -11.850073,0.0018 -17.777776,0 -8.887288,0.0018 -17.775999,0.0018 -26.666665,0 -5.924266,0.0018 -11.8500741,0.0018 -17.77777675,0 0.00178,-5.924266 0.00178,-11.850073 0,-17.777776 0.00178,-8.887288 0.00178,-17.775999 0,-26.666665 0.00178,-5.924266 0.00178,-11.8500735 0,-17.77777675 z"
+       inkscape:export-filename="button-a.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;font-family:monospace;-inkscape-font-specification:monospace;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       x="17.84"
+       y="44.863998"
+       id="text2584"><tspan
+         sodipodi:role="line"
+         id="tspan2582"
+         x="17.84"
+         y="44.863998"
+         style="font-size:48px">c</tspan></text>
+  </g>
+</svg>

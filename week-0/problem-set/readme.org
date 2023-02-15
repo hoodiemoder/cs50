@@ -1,5 +1,5 @@
 * Scratch game
-
+https://scratch.mit.edu/projects/804468695/
 ** Idea
  Using buttons, you can program a beat.
 
@@ -9,3 +9,21 @@ Made two sprites for buttons,
 button-a and button-b.
 *** TODO More than three scripts
 *** TODO One Conditional, loop and variable
+
+Need to make a loop that counts the beat
+
+Make the buttons in a grid
+
+Make the button have pressed state
+
+If the buttons are pressed, in the beat, they play their sound
+
+Make the beat repeat forever, make the buttons.
+
+
+We're making 4 button-a and button-b each.
+
+Position each button to their place, 64x64 grid
+starting at -128,64 ending at 64,0
+
+* 

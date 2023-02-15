@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="10.419983"
+   height="10.339798"
+   viewBox="0 0 10.419983 10.339798"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="launchpad.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   sodipodi:docname="beat-light-on"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid525" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect4643"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-174.74998,-79.830162)">
+    <rect
+       style="fill:#ebebeb;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       id="rect4441"
+       width="480"
+       height="360"
+       x="0"
+       y="0" />
+    <path
+       style="fill:#fa0000;fill-opacity:0.7;stroke:#000000;stroke-width:0.5;stroke-dasharray:none"
+       d="m 175,85.001 c 0,-1 0,-2 0.33334,-2.83384 0.33334,-0.83384 0.99999,-1.500492 2.33385,-1.833826 C 179.00104,80 181.001,80 182.33434,80.33384 c 1.33334,0.33384 1.99999,1.000491 2.33283,2.333846 C 185,84.00104 185,86.001 184.66666,87.33384 c -0.33334,1.33284 -0.99999,1.999492 -2.33285,2.332826 C 181.00096,90 179.001,90 177.66766,89.66716 176.33432,89.33432 175.66767,88.667668 175.33383,87.834324 175,87.00098 175,86.001 175,85.001 Z"
+       id="path4641"
+       inkscape:path-effect="#path-effect4643"
+       inkscape:original-d="m 175,85 c 0.001,-0.999 0.001,-1.999 0,-3 0.66768,-0.66568 1.33433,-1.332333 2,-2 2.00104,0.001 4.001,0.001 6,0 0.66768,0.66768 1.33433,1.334333 2,2 0.001,2.00104 0.001,4.001 0,6 -0.66568,0.66768 -1.33233,1.334333 -2,2 -1.99904,0.001 -3.999,0.001 -6,0 -0.66568,-0.66568 -1.33233,-1.332333 -2,-2 0.001,-0.99902 0.001,-1.999 0,-3 z"
+       inkscape:export-filename="./beat-light"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>
