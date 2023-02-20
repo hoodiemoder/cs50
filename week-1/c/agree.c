@@ -3,21 +3,16 @@
 
 int main(void)
 {
-    printf("To update system you will consume 10GiB of data")
+    printf("To update system you will consume 10GiB of data\n");
 
     char c = get_char("Do you agree? [Y/n]\n");
 
-    if (c == 'Y' || 'y' || '');
+    if (c == ('Y' | 'y'))
     {
-        printf("Updating...");
+        printf("Updating...\n");
     }
-    else if (c == 'N' || 'n');
+    else if (c == ('N' | 'n'))
     {
-        printf("Operation aborted.");
+        printf("Operation aborted.\n");
     }
-    else
-    {
-        printf("Error, please try again");
-    }
-
 }
