@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <cs50.h>
+
 int main(void)
 {
     //While loop for meowing
-
-    //string meow = ("Meow!");
     int i = 0;
     while (i < 3)
     {
