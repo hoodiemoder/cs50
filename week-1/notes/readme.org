@@ -1,7 +1,4 @@
-
-
 * C
-
 
 | Input       | Black box | Output       |
 | Source code | Compiler  | Machine code |
@@ -18,6 +15,68 @@ Writing good code takes time and practice, evaluate the quality:
   How to communicate, how optimized.
 - Style
   Will make it more readable
+
+** Data types
+*** Native
+In C we need to declare the data type we will use.
+
+- int (signed)
+  Integer values, takes up 4 bytes of memory, 32 bits.
+  -2^31, 2^31-1
+
+- unsigned int
+  Range of values are in the positive range.
+  0, 2^32-1
+
+- char
+  Single characters, takes up 1 byte, 8 bits.
+  -128, 127
+  A = 65, ASCII standard.
+
+- float
+  Floating point numbers, 4 bytes of memory 32 bits.
+  Precision depents on the number.
+
+- double
+  More precision than float, 8 bytes, 64 bits.
+
+- void
+  It is a *type*, functions can have void return type.
+  For example printf, prints text out to standard output but returns nothing.
+
+  For example: int main(void), doesn't take any arguments.
+
+Create a variable when you need it.
+
+#begin_src:
+// Declare a variable.
+int number;
+char letter;
+
+// Declaring multiple variables.
+int height number, width;
+float sqrt2, sqrt3, pi;
+
+int n; // declaration
+n = 1; // assignment
+
+char letter; // declaration
+letter = 'a' // assignment
+
+int n = 1; // initialization
+char letter = 'a'; // initialization
+#end_src:
+
+
+*** cs50.h
+
+- bool
+  Variable with Boolean type, true or false.
+
+- string
+  Series of characters, concatenation of chars.
+
+- structs, typedefs...
 
 * Visual Studio
 VS Code helps us to format and compile code.
@@ -39,5 +98,4 @@ make hello
 #+end_src:
 
 Follow best practices.
-
 
