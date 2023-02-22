@@ -46,8 +46,9 @@ In C we need to declare the data type we will use.
 
   For example: int main(void), doesn't take any arguments.
 
-Create a variable when you need it.
 
+Create a variable when you need it.
+After declaration, there is no need to declare again the type
 #begin_src:
 // Declare a variable.
 int number;
@@ -78,14 +79,173 @@ char letter = 'a'; // initialization
 
 - structs, typedefs...
 
+** Operators
+*** Arithmetic operators
+
+- Add (+)
+- Subtract (-)
+- Multiply (*)
+- Divide (/)
+- Modulus (%)
+  Gives the remainder of the division.
+
+**** Shortcuts
+- x ++;
+  x = x + 1;
+  
+- x --;
+  x = x - 1;
+  
+- x *= 2;
+
+*** Boolean expressions
+In the cs50 library type bool is used.
+
+In C, !0 = true and 0 is false.
+
+Logical operators and relational operators.
+
+**** Logical operators
+- ! (not)
+  | x     | !x    |
+  | true  | false |
+  | false | true  |
+
+- && (and)
+  | x     | y     | (x && y) |
+  | true  | true  | true     |
+  | true  | false | false    |
+  | false | true  | false    |
+  | false | false | false    |
+
+- || (or)
+  | x     | y     | (x && y) |
+  | true  | true  | true     |
+  | true  | false | true     |
+  | false | true  | true     |
+  | false | false | false    |
+
+
+**** Relational operators
+- < (less than)
+- <= (less or equal to)
+- > (greater than)
+- >= (greater or equal to)
+- x == y (equality)
+  x = y is used for asignment,
+  x == y is used for comparing.
+- x != y (inequality)
+
+*** Conditional statements
+Conditional branch / expressions
+- if
+#begin_src:
+if (bool-exp1)
+{
+
+}
+if (bool-exp2)
+{
+
+}
+else if (bool-exp3)
+{
+
+}
+else
+{
+
+}
+#end_src:
+- switch
+#begin_src:
+int x = get_int()
+switch(x)
+case 3:
+    printf("Three, ")
+case 2:
+    printf("Two, ")
+case 1:
+    printf("One, ")
+default:
+    printf("Go!\n")
+#end_src:
+- ?: (ternary operator)
+Used for short conditional branches.
+#begin_src:
+int x = (exp) ? 5 : 6;
+
+
+int x;
+if (exp)
+{
+    x = 5;
+}
+else
+{
+    x = 6;
+}
+#end_src:
+
+*** Loops
+Use whie loop when you want to repeat unknown number of times,
+
+do while for at least one time and for loop for a discrete number of times.
+
+They are interchangeable, but should use the one that makes the most sense.
+- while true (infinite loop)
+  Escape with break or escape.
+
+- while
+  Loop will run until the condition is false.
+
+- do while
+  Will execute the code inside the do loop and check the condition,
+  will run the code at least one time.
+
+- for loop
+  #begin_src:
+  for (int i = 0; i < 10; i++)
+  //  (start; expr; increment)
+  {
+
+  }
+  #end_src:
+  Repeats the code inside until i<10 is false.
+  
+* Command Line
+- ls
+  lists the content of current directory.
+- cd
+  changes current directory.
+  - cd ..
+    Go to parent directory
+  - cd .
+    Go to current directory
+  - cd ~ || cd
+    Go to current user home directory
+  - cd /
+    Go to root
+- pwd
+  Displays current working directory.
+- cp
+  Copies files.
+#begin_src:
+  cp [option] <origin-path> <destination-path>
+#end_src:
+  - option -r
+    copies recursively
+- rm
+  Used for deleting nodes, use -r option to remove recursively.
+- mv
+  Used for moving and renaming files.
+  
 * Visual Studio
 VS Code helps us to format and compile code.
 
 Widely used, various programming languages.
 
 Mix of GUI and CLI
-
-** Editor
 
 ** Terminal
 CLI, input via keyboard, more features than GUI, efficiency.
