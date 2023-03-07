@@ -1,0 +1,65 @@
+* Luhn's Algorithm
+
+Multiply every odd by 2.
+Sum the multiplied odd with the sum of evens.
+If the resulting number mod 10 is 0, it's valid.
+
+* American Express
+- 15 digits
+- Starts with 34, 37
+* MasterCard
+- 16 digits
+- Starts with 51-55
+* Visa
+- 13, 16 digits
+- Starts with 4
+
+* Code
+
+Check Luhn's
+Check starting number
+Check for number length
+Return AMEX, MASTERCARD, VISA, INVALID
+
+How to check Lunh's
+
+Get the number as long from get_long
+Use the modulus operator to get number by number
+How to know it ended?
+
+
+First we need to understand the input,
+the input is a variable length of number
+that ranges from 13 to 16 digits.
+Some can be determined invalid by the incorrect number of digits.
+
+First we have to determine if the length of the card makes sense.
+
+After that we have to check the starting numbers of each card
+and to know if that corresponds to the bank branch.
+
+We know that for 13 digits there is only Visa that starts from 4
+We know that for 15 digits there is only American Express that starts from 34 and 37
+We know that for 16 digits there is only Visa and Mastercard, 4 for Visa and 51 to 55 for Mastercard.
+
+Given the next conditions we can determine first if the lenght of the number matches 13, 15 or 16 digits,
+if the given input is not one of those it is invalid for this case.
+
+After determining the digits of the number, we have to check what number it starts from, if it matches the pattern
+of the banks that are named in each case, we continue, else we discard that number as invalid.
+
+At last given the matching digits and starting numbers, we use the Luhn's Algorithm to determine if it is a valid card.
+
+I chose to do it this way because there are less options for the first case so we can sort out the most numbers of numbers,
+
+the second step with help of the first step, we narrow down the check for the beggining numbers of the card.
+
+Leaving Luhn's Algorithm for last because it is the most computationally expensive operation.
+
+
+To implement Lunh's algorithm we need to separate the even and odd
+We can use a for loop, inside the for loop, if % 2 = 0 is pair.
+
+it would be good to add to a value for odd and even
+
+Finally adding them up

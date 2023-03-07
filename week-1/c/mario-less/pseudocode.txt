@@ -1,0 +1,14 @@
+Prompt the user for pyramid layers
+Given the input n, print n layers
+Each layer adds to a counter i
+Layer width is determined by i - n
+Stop printing layers when i is equal to n
+
+
+// Right-Aligning with Dots
+
+Print a square, of height and width $n
+while $i > $n - $layer, print "." (dot)
+while $i <= $layer, print "#"
+when $i = $n print "\n"
+
