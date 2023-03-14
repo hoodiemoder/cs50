@@ -62,4 +62,38 @@ We can use a for loop, inside the for loop, if % 2 = 0 is pair.
 
 it would be good to add to a value for odd and even
 
-Finally adding them up
+Finally adding them up.
+
+We have detected first how many digits in the user input string in the first place, given the length of the input we can:
+
+implement a function in which we pass the input and the digit length as the secondary input
+
+To get a return value of INVALID, VISA, AMEX, MASTER, based on input.
+
+
+we can use a for loop, using exponential values of 10 ** x, with x as incrementing value of the loop,
+
+if the x is even, we add the value to the even variable, else add to the odd.
+
+at the end we add the even and the odss to get the result.
+
+function lunhs(card_number, digits)
+    for (x = 0; x < digits; x++)
+        if x // 2 = 0
+          even += card_number / pow(10, x)
+        else
+        odd += card_number / pow(10, x)
+
+We need to pick the specific number to add to the values.
+
+1234567890123
+^
+|This is the first digit from left to right, to get it we divide by the 10 ** digits - 1
+|we transform it to integer to truncate the decimal values after it.
+
+1234567890123
+ ^
+ |This is the second number, we need to divide by 10 ** digits - 2, it gives us 12
+ |We can either credit card - first_digit beforehand or after this.
+
+ 
